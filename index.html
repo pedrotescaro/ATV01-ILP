@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Formulário de Inscrição 1</title>
+  <title>Formulário de Inscrição</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
     #resultado {
@@ -27,7 +27,7 @@
     <section>
       <br>
       <h2>Preencha seus dados</h2>
-      <form onsubmit="handleSubmit(event)">
+      <form action="form.php" method="POST">
 
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome" required>

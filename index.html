@@ -5,15 +5,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Formulário de Inscrição</title>
   <link rel="stylesheet" href="css/style.css">
-  <style>
-    #resultado {
-      margin-top: 30px;
-      padding: 15px;
-      border: 2px solid #ccc;
-      border-radius: 8px;
-      background-color: #f0f8ff;
-    }
-  </style>
 </head>
 <body>
   <header>
@@ -27,7 +18,8 @@
     <section>
       <br>
       <h2>Preencha seus dados</h2>
-      <form action="form.php" method="POST">
+      <form action="form.php" method="POST" aria-label="Formulário de inscrição">
+
 
         <label for="nome">Nome Completo:</label>
         <input type="text" id="nome" name="nome" required>
@@ -78,15 +70,11 @@
         <input type="reset" value="Limpar">
       </form>
       
-      <br>
-      <div id="resultado"></div>
     </section>
   </main>
-
-  <footer>
-    <br>
+<footer class="footer">
   <p><strong>&copy; 2025 - Guilherme Alves & Pedro Antonio</strong></p>
-  </footer>
+</footer>
 
   <script src="js/script.js"></script>
 </body>
